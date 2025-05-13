@@ -1,0 +1,45 @@
+### Install Dependencies from requirements.txt
+### ``` pip install -r requirements.txt ```
+
+#  Set Up Bedrock API in FastAPI . You'll need Boto3 (AWS SDK for Python) to call Bedrock models from FastAPI.
+boto3
+
+bs4
+# Installing FAISS (Facebook AI Similarity Search) for efficient similarity-based search on text embeddings.
+faiss-cpu 
+fastapi
+
+# Installing the core LangChain library for building LLM-based applications, including chaining, memory, and retrieval capabilities.
+langchain
+# AWS Bedrock LangChain library
+langchain_aws
+# Installing the community version of LangChain, which includes integrations and tools contributed by the community.
+langchain-community
+# Installing the LangChain Hub package to access and manage pre-built AI chains, prompts, and agents.
+langchainhub
+# Installing the LangChain OpenAI integration to use OpenAI models within LangChain workflows.
+langchain-openai
+nltk 
+numpy 
+openai 
+pandas
+pymongo[srv]==3.12
+pymupdf
+python-docx
+python-dotenv
+python-multipart
+requests
+scikit-learn
+sentence-transformers
+spacy
+# Installing Gradio/streamlit, a framework to create web-based UIs for AI models and applications easily.
+streamlit
+streamlit_extras
+tensorflow
+tf-keras
+torch
+transformers
+uvicorn 
+
+### (python -m spacy download en_core_web_sm) 
+# python -m spacy download en_core_web_lg
